@@ -31,7 +31,6 @@ function numchange(){
     }
 }
 
-
 function slidechange(){
     vnum.value = vslide.value;
     hbutton.disabled = false;
