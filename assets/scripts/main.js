@@ -1,10 +1,10 @@
-const simage = document.getElementById("sound-image");
-const vimage = document.getElementById("volume-image");
-const vnum = document.getElementById("volume-number");
-const vslide = document.getElementById("volume-slider");
-const hsound = document.getElementById("horn-sound");
-const hbutton = document.getElementById("honk-btn");
-const aselect = document.getElementById("audio-selection");
+let simage = document.getElementById("sound-image");
+let vimage = document.getElementById("volume-image");
+let vnum = document.getElementById("volume-number");
+let vslide = document.getElementById("volume-slider");
+let hsound = document.getElementById("horn-sound");
+let hbutton = document.getElementById("honk-btn");
+let aselect = document.getElementById("audio-selection");
 
 vnum.addEventListener("input",numchange);
 vslide.addEventListener("input",slidechange);
