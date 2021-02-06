@@ -15,16 +15,16 @@ function numchange(){
     vslide.value = vnum.value();
     hbutton.disabled = false;
     if(vnum.value>66){
-        vimage.src = "./assets.media/volume-level-3.svg";
+        vimage.src = "./assets/media/icons/volume-level-3.svg";
     }
     else if(vnum.value>33){
-        vimage.src = "./assets.media/volume-level-2.svg";
+        vimage.src = "./assets/media/icons/volume-level-2.svg";
     }
     else if(vnum.value>0){
-        vimage.src = "./assets.media/volume-level-1.svg";
+        vimage.src = "./assets/media/icons/volume-level-1.svg";
     }
     else if(vnum.value == 0){
-        vimage.src = "./assets.media/volume-level-0.svg";
+        vimage.src = "./assets/media/icons/volume-level-0.svg";
         hbutton.disabled = true;
     }
 }
@@ -34,16 +34,16 @@ function slidechange(){
     vnum.value = vslide.value();
     hbutton.disabled = false;
     if(vnum.value>66){
-        vimage.src = "./assets.media/volume-level-3.svg";
+        vimage.src = "./assets/media/icons/volume-level-3.svg";
     }
     else if(vnum.value>33){
-        vimage.src = "./assets.media/volume-level-2.svg";
+        vimage.src = "./assets/media/icons/volume-level-2.svg";
     }
     else if(vnum.value>0){
-        vimage.src = "./assets.media/volume-level-1.svg";
+        vimage.src = "./assets/media/icons/volume-level-1.svg";
     }
     else if(vnum.value == 0){
-        vimage.src = "./assets.media/volume-level-0.svg";
+        vimage.src = "./assets/media/icons/volume-level-0.svg";
         hbutton.disabled = true;
     }
 }
