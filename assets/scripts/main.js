@@ -14,7 +14,7 @@ hbutton.addEventListener("click", bclick);
 function numchange(){
     vslide.value = vnum.value;
     hbutton.disabled = false;
-    hsound.volume = vnum.value;
+    hsound.volume = vnum.value/100;
     console.log(vnum.value);
     if(vnum.value>66){
         vimage.src = "./assets/media/icons/volume-level-3.svg";
@@ -35,7 +35,7 @@ function numchange(){
 function slidechange(){
     vnum.value = vslide.value;
     hbutton.disabled = false;
-    hsound.volume = vnum.value;
+    hsound.volume = vnum.value/100;
     console.log(vnum.value);
     if(vnum.value>66){
         vimage.src = "./assets/media/icons/volume-level-3.svg";
