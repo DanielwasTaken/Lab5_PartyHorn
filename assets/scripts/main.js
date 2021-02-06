@@ -56,7 +56,7 @@ function aselectchange(event){
     }
     else if(schoice == "radio-car-horn"){
         hsound.src =  "./assets/media/audio/car-horn.mp3";
-        simage.src = "./assets/media/images/car-horn.svg";
+        simage.src = "./assets/media/images/car.svg";
     }
     else{
         hsound.src =  "./assets/media/audio/party-horn.mp3";
