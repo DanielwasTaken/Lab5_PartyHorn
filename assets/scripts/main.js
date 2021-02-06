@@ -15,6 +15,7 @@ function numchange(){
     vslide.value = vnum.value;
     hbutton.disabled = false;
     hsound.volume = vnum.value;
+    console.log(vnum.value);
     if(vnum.value>66){
         vimage.src = "./assets/media/icons/volume-level-3.svg";
     }
@@ -35,6 +36,7 @@ function slidechange(){
     vnum.value = vslide.value;
     hbutton.disabled = false;
     hsound.volume = vnum.value;
+    console.log(vnum.value);
     if(vnum.value>66){
         vimage.src = "./assets/media/icons/volume-level-3.svg";
     }
